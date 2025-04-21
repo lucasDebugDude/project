@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Password Generator",
+  "description": "Creates strong passwords and allows you to copy them with a single click.",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon.png",
+      "48": "icons/icon.png",
+      "128": "icons/icon.png"
+    }
+  },
+  "permissions": ["clipboardWrite"]
+}
